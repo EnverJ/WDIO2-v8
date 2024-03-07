@@ -1,0 +1,4 @@
+{
+  "script": "return (() => window.navigator.clipboard.readText()).apply(null, arguments)",
+  "args": []
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[@aria-labelledby=(//*[normalize-space(text()) = \"[role=\"generic\"]\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"[role=\"generic\"]\"]/@id)] | .//*[@aria-label = \"[role=\"generic\"]\"] | .//input[@id = (//label[normalize-space() = \"[role=\"generic\"]\"]/@for)] | .//textarea[@id = (//label[normalize-space() = \"[role=\"generic\"]\"]/@for)] | .//input[//ancestor::label[normalize-space(text()) = \"[role=\"generic\"]\"]] | .//textarea[//ancestor::label[normalize-space(text()) = \"[role=\"generic\"]\"]] | .//input[@placeholder=\"[role=\"generic\"]\"] | .//textarea[@placeholder=\"[role=\"generic\"]\"] | .//input[@aria-placeholder=\"[role=\"generic\"]\"] | .//textarea[@aria-placeholder=\"[role=\"generic\"]\"] | .//*[not(self::label)][@title=\"[role=\"generic\"]\"] | .//img[@alt=\"[role=\"generic\"]\"] | .//*[not(self::label)][normalize-space(text()) = \"[role=\"generic\"]\"]"
+}

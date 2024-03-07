@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-03-07T16:17:42" time="3.861" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.122_0_6261_112.mac"/>
+      <property name="file" value="file://./test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.122_0_6261_112.mac.Demo_Tests" name="First Test" time="3.857">
+      <system-out><![CDATA[
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/url - {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/elements - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/element/f.906E33D06DEE74B98C39AD70DC845C2C.d.64743EEFCAA94FC265F1A6D78699C692.e.1/clear - {}
+RESULT: {}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/element/f.906E33D06DEE74B98C39AD70DC845C2C.d.64743EEFCAA94FC265F1A6D78699C692.e.1/value - {"text":"webdriverio"}
+RESULT: {"text":"webdriverio"}
+COMMAND: POST /session/c5fddba3efbe77f9e41c5d89518b2211/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/c5fddba3efbe77f9e41c5d89518b2211 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

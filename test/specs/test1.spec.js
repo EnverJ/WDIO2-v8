@@ -5,6 +5,6 @@ describe("Demo Tests", function () {
     // await $('[name="q"]').click();
 
     await browser.keys("Enter");
-    await browser.pause(2000);
+    await browser.pause(1000);
   });
 });

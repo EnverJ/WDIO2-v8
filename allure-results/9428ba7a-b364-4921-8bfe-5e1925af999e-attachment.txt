@@ -1,6 +1,0 @@
-{
-  "descriptor": {
-    "name": "clipboard-read"
-  },
-  "state": "granted"
-}

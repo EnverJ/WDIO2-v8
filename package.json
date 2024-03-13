@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "geckodriver": "^4.3.3"
+  },
+  "directories": {
+    "test": "test"
   }
 }

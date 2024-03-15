@@ -34,4 +34,7 @@ describe("Demo test POM", () => {
     const actualVal = "Congratulations! You must have the proper credentials.";
     await expect(val).toEqual(actualVal);
   });
+  it("count broken image links ", async () => {
+    await browser.url("https://the-internet.herokuapp.com/broken_images");
+  });
 });
